@@ -1,23 +1,22 @@
-{
-	"author": "Paul Serby <paul@serby.net>",
-	"name": "...",
-	"description": "",
-	"version": "0.0.1",
-	"tags": [],
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:serby/..."
-	},
-	"main": "",
-	"scripts": {
-		"test": "mocha -r should"
-	},
-	"engines": {
-		"node": ">0.4.0"
-	},
-	"dependencies": {
-		"mocha": "*",
-		"should": "*"
-	},
-	"devDependencies": {}
+{ "author": "Paul Serby <paul@serby.net>",
+, "name": "...",
+, "description": ""
+, "version": "0.0.1"
+, "tags": []
+, "repository":
+  { "type": "git"
+  , "url": "git@github.com:serby/..."
+  }
+, "main": "",
+, "scripts":
+  { "test": "mocha -r should"
+  }
+, "engines":
+  { "node": ">0.6.0"
+  }
+, "dependencies":
+  { "mocha": "*"
+  , "should": "*"
+  }
+, "devDependencies": {}
 }
