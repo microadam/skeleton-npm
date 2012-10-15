@@ -9,7 +9,8 @@
   }
 , "main": ""
 , "scripts":
-  { "test": "mocha -r should"
+  { "test": "./node_modules/.bin/mocha -r should"
+    "prepublish": "make qa && npm prune"
   }
 , "engines":
   { "node": ">=0.8"
