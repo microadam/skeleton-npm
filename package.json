@@ -1,16 +1,16 @@
 { "author": "Paul Serby <paul@serby.net>"
-, "name": "..."
-, "description": ""
+, "name": "{NAME}"
+, "description": "{DESCRIPTION}"
 , "version": "0.0.1"
 , "tags": []
 , "repository":
   { "type": "git"
-  , "url": "git@github.com:serby/..."
+  , "url": "git@github.com:serby/{NAME}"
   }
 , "main": ""
 , "scripts":
-  { "test": "./node_modules/.bin/mocha -r should"
-    "prepublish": "make qa && npm prune"
+  { "test": "make test"
+  , "prepublish": "make qa && npm prune"
   }
 , "engines":
   { "node": ">=0.8"
